@@ -10,9 +10,12 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "allowJs": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "node",
+      "jest"
     ],
     "paths": {
       "@/*": [
@@ -23,7 +26,8 @@
       "esnext",
       "dom",
       "dom.iterable",
-      "scripthost"
+      "scripthost",
+      "es2015"
     ]
   },
   "include": [
@@ -34,6 +38,7 @@
     "tests/**/*.tsx"
   ],
   "exclude": [
+    "dist",
     "node_modules"
   ]
 }
