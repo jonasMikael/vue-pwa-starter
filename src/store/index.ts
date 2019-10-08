@@ -4,12 +4,12 @@ import * as menu from '@/modules/menu/store';
 import Vue from 'vue';
 import Vuex from 'vuex';
 import * as root from './root';
-import { menuStorage } from '@/modules/menu/store';
+import { menuStorage, StateMenu } from '@/modules/menu/store';
 
 Vue.use(Vuex);
 
 interface ModulesStates {
-  menu: menuStorage;
+  menu: StateMenu;
 }
 
 export type AllStates = root.State & ModulesStates;
