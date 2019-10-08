@@ -1,4 +1,4 @@
-import { RootState } from '@/store';
+import { RootState } from '@/store/index';
 import { ActionContext, ActionTree } from 'vuex';
 import { StateMenu } from './state';
 
