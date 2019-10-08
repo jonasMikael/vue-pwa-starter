@@ -1,8 +1,0 @@
-// Getters (GET*)
-// [CONTEXT]_[ACTION]_[PROPERTY]
-
-// Mutations (SET*, ADD*, REMOVE*)
-// [CONTEXT]_[ACTION]_[PROPERTY]
-
-// Actions (FETCH*, CREATE*, UPDATE*, DELETE*)
-// [CONTEXT]_[ACTION]_[PROPERTY]_[STATUS]
