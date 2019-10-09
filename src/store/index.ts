@@ -1,6 +1,5 @@
 import * as menu from '@/modules/menu/store';
 
-
 import Vue from 'vue';
 import Vuex from 'vuex';
 import * as root from './root';

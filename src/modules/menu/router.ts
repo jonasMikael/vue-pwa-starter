@@ -7,9 +7,13 @@ export const MENU_ROUTES = Object.freeze({
 export const menuRoutes = [
   {
     path: `${process.env.BASE_URL}qr-code`,
-
     component: () => import('@/layout/empty.layout.vue'),
     children: [
+      {
+        path: '',
+        name: MENU_ROUTES.QrCodePage,
+        component: QrCodePage,
+      }
     ],
   },
 ];
